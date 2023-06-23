@@ -31,7 +31,7 @@ Use the following commands to run the app:
 
 Use the following command to run the tests:
 
-- docker run php-excercise vendor/bin/phpunit
+- docker run php-test vendor/bin/phpunit
 
 ## Env file
 
