@@ -24,8 +24,8 @@ Build in Laravel
 Use the following commands to run the app:
 
 - composer update
-- docker build -t php-exercise .
-- docker run -p 8000:80 php-exercise OR docker run -p 8000:80 imageID
+- docker build -t php-test .
+- docker run -p 8000:80 php-test OR docker run -p 8000:80 imageID
 
 ## Run test
 
