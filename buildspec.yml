@@ -29,5 +29,4 @@ phases:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
       - docker image ls -a
-      - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
       - docker push $REPOSITORY_URI:$IMAGE_TAG
