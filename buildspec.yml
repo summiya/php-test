@@ -11,7 +11,7 @@ phases:
       # login to Elastic container registry
       - eval $(aws ecr get-login --region eu-west-1 --no-include-email | sed 's|https://||')
       - REPOSITORY_URI=607961807593.dkr.ecr.eu-west-1.amazonaws.com/php-test
-      - IMAGE_TAG=1.0
+      - IMAGE_TAG=latest
   build:
     commands:
       - echo Build started on `date`
